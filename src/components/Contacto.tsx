@@ -1,8 +1,15 @@
 import React from 'react'
+import { Header } from './Header';
+import { Footer } from './Footer';
 
 const Contacto = () => {
     return (
-        <div>Contacto</div>
+        <>
+            <Header />
+            <div className='mt-5'>
+            </div>
+            <Footer />
+        </>
     )
 }
 
