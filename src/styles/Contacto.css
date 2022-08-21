@@ -30,8 +30,7 @@
 .formulario_container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 1.5rem;
-    column-gap: 1.5rem;
+    gap: 1.5rem;
     padding: 1rem;
     border: 1px solid #E7E7E7;
     border-radius: 8px;
@@ -63,3 +62,16 @@
 .btn_enviar:hover{
     background-color: #004F88;
 }
+
+@media screen and (max-width: 576px){
+    .formulario_container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .total_celdas{
+        grid-column: 1/2;
+    }
+}
+    

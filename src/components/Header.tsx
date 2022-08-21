@@ -21,12 +21,13 @@ const Header = () => {
         <header className='header'>
             <div className='left_side'>
                 <img src={logo} alt="logo" className='logo' />
+                <h4 className='fw-light m-0'>Ministerio de Energía y Minas</h4>
             </div>
             <div className='right_side'>
                 <h4 className='fw-light mb-0'>Ministerio de Energía y Minas</h4>
                 <div className='vertical_separator'></div>
                 <nav>
-                    <ul className='nav nav-pills'>
+                    <ul className='nav'>
                         <li className='nav-item'>
                             <a href="/" className={'nav-link mi_link ' + checkURl('/')}>Inicio</a>
                         </li>
@@ -38,15 +39,16 @@ const Header = () => {
                         </li>
                     </ul>
                 </nav>
+                <div className='d-flex'>
+                    <div className='search_container'>
+                        <img src={lupa} alt="lupa" />
+                        <p className='mb-0 mi_texto'>Buscar</p>
+                    </div>
 
-                <div className='search_container'>
-                    <img src={lupa} alt="lupa" />
-                    <p className='mb-0 mi_texto'>Buscar</p>
-                </div>
-
-                <div className='menu_container'>
-                    <img src={burger_menu} alt="burguer_menu" />
-                    <p className='mb-0 mi_texto'>Menú</p>
+                    <div className='menu_container'>
+                        <img src={burger_menu} alt="burguer_menu" />
+                        <p className='mb-0 mi_texto'>Menú</p>
+                    </div>
                 </div>
 
             </div>
