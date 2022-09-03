@@ -9,14 +9,14 @@ const TemasImportantes = () => {
     <>
       <Header />
 
-      <div style={{ height: "fit-content" }} className="container d-flex flex-column align-items-center">
+      <div style={{ height: "fit-content"}} className="container d-flex flex-column align-items-center">
         
-        <h1 className="titulo row">Temas importantes</h1>
-        <div className="row has-search w-50">
+        <h1 className="titulo row my-4">Temas importantes</h1>
+        <div className="row has-search my-4">
           <img className="form-control-feedback" src={lupa} alt="lupa" />
           <input type="text" className="form-control" placeholder="Ingresa aquí lo que estas buscando" />
         </div>
-        <div className="d-flex">
+        <div className="d-flex my-3">
           <div className='mx-3 align-self-center circulo align-items-center d-flex'>
             <i className="fa fa-solid fa-caret-left fa-3x m-3"></i>
           </div>
@@ -55,7 +55,7 @@ const TemasImportantes = () => {
 
 
       </div>
-      <div className='w-100' style={{position: "absolute", bottom: 0}}>
+      <div className='w-100' style={{marginTop: 35}}>
         <Footer />
       </div>
       
