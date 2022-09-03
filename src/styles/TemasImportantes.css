@@ -24,6 +24,7 @@
     margin: 20px;
     border-radius: 30px;
     height: 45px;
+    width: 50%;
 }
 
 .has-search .form-control {
@@ -60,8 +61,8 @@
     margin: 10px;
     background-color: #5f86b1;
     color: white;
-    width: 175px;
-    height: 125px;
+    width: 200px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,6 +79,7 @@
     border-radius: 50%;
     background: #ccd6e8;
     box-shadow: 2px 4px 4px 2px #D9D9D9;
+    cursor: pointer;
 }
 
 .triangulo {
@@ -88,3 +90,53 @@
     border-bottom: 20px solid transparent; 
 }
 
+@media screen and (max-width: 820px) {
+    .caja{
+        width: 75%;
+        height: 100px;
+    }
+
+    .has-search{
+        width: 80%;
+    }
+
+
+}
+
+@media screen and (max-width: 560px) {
+    .caja{
+        width: 75%;
+        height: 100px;
+    }
+
+    .has-search{
+        width: 75%;
+    }
+
+    .circulo{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .caja{
+        width: 80px;
+        height: 100px;
+        margin: 5px;
+        font-size: x-small;
+    }
+
+    .circulo{
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+    }
+
+    .has-search{
+        width: 100%;
+    }
+}
+
+
+    
