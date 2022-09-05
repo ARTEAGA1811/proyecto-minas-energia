@@ -14,7 +14,7 @@ const TemasImportantes = () => {
         <h1 className="titulo row my-4">Temas importantes</h1>
         <div className="row has-search my-4">
           <img className="form-control-feedback" src={lupa} alt="lupa" />
-          <input type="text" className="form-control" placeholder="Ingresa aquí lo que estas buscando" />
+          <input type="text" className="form-control" placeholder="Ingresa aquí lo que estás buscando" />
         </div>
         <div className="d-flex my-3">
           <div className='mx-3 align-self-center circulo align-items-center d-flex'>
@@ -25,7 +25,7 @@ const TemasImportantes = () => {
               Geoportal
             </div>
             <div className='caja'>
-              Reporte de produccion
+              Reporte de producción
             </div>
           </div>
           <div className='d-grid align-items-center'>
@@ -38,10 +38,10 @@ const TemasImportantes = () => {
           </div>
           <div className='d-grid align-items-center'>
             <div className='caja'>
-              Balance Energetico Nacional
+              Balance Energético Nacional
             </div>
             <div className='caja'>
-              Commodities Diarios de Mineria
+              Commodities Diarios de Minería
             </div>
           </div>
 
@@ -50,10 +50,6 @@ const TemasImportantes = () => {
           </div>
         </div>
         
-
-
-
-
       </div>
       <div className='w-100' style={{marginTop: 35}}>
         <Footer />
