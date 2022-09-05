@@ -43,7 +43,11 @@
 }
 
 .mi_link:hover{
-    color: #CCD6E8;
+    color: #EBEBEB;
+}
+
+.mi_link:focus{
+    color: #EBEBEB;
 }
 
 .nav-item .active_section{
@@ -62,26 +66,23 @@
     align-items: center;
     margin-right: 1rem;
     margin-left: 1.5rem;
-    cursor: pointer;
 }
-
-
 
 
 .menu_container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    cursor: pointer;
 }
 
 
 .mi_texto{
     font-weight: normal;
+    color: white;
 }
 
 .mi_texto:hover{
-    color: #CCD6E8;
+    color: #EBEBEB;
 }
 
 
