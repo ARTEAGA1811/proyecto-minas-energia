@@ -63,6 +63,7 @@
     background-color: #023152;
 }
 
+
 @media screen and (max-width: 576px){
     .formulario_container{
         display: grid;

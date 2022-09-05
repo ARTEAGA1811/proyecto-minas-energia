@@ -1,0 +1,14 @@
+.main-color{
+    color: #004F88;
+}
+
+.btn-buscar{
+    background-color: #004F88;
+    color: #ffffff;
+}
+
+.btn-buscar:hover, .btn-buscar:focus{
+    background-color: #02375d;
+    color: #ffffff;
+}
+
