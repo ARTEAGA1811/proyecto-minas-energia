@@ -10,9 +10,9 @@ function App() {
     return (
         <div id='principal_styles'>
             <Routes>
-                <Route path="/" element={<Inicio />} />
-                <Route path="temas-importantes" element={<TemasImportantes />} />
-                <Route path="contacto" element={<Contacto />} />
+                <Route path="/proyecto-minas-energia" element={<Inicio />} />
+                <Route path="/proyecto-minas-energia/temas-importantes" element={<TemasImportantes />} />
+                <Route path="/proyecto-minas-energia/contacto" element={<Contacto />} />
             </Routes>
         </div>
     );
