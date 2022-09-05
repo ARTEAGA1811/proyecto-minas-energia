@@ -41,7 +41,7 @@ const Header = () => {
                     </ul>
                 </nav>
                 <div className='d-flex'>
-                    <button className='search_container btn' data-bs-toggle="modal" data-bs-target="#exampleModal" type='button'>
+                    <button className='search_container btn' data-bs-toggle="modal" data-bs-target="#modalBuscar" type='button'>
                         <img src={lupa} alt="ícono de una lupa" />
                         <p className='mb-0 mi_texto'>Buscar</p>
                     </button>
