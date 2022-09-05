@@ -46,8 +46,7 @@
         ]
     },
     "devDependencies": {
-        "gh-pages": "^4.0.0",
-        "@types/styled-components": "^5.1.26"
-    },
-    "homepage": "https://arteaga1811.github.io/proyecto-minas-energia/"
+        "@types/styled-components": "^5.1.26",
+        "gh-pages": "^4.0.0"
+    }
 }
