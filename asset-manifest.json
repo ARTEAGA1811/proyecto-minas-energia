@@ -1,17 +1,34 @@
 {
   "files": {
-    "main.css": "/proyecto-minas-energia/static/css/main.98a80d67.css",
-    "main.js": "/proyecto-minas-energia/static/js/main.2b4e8df3.js",
+    "main.css": "/proyecto-minas-energia/static/css/main.7c6474bf.css",
+    "main.js": "/proyecto-minas-energia/static/js/main.1463eef9.js",
+    "static/media/01.png": "/proyecto-minas-energia/static/media/01.1890d60a97b6206764b2.png",
+    "static/media/03.png": "/proyecto-minas-energia/static/media/03.813b695b9a350fe96e4d.png",
+    "static/media/02.png": "/proyecto-minas-energia/static/media/02.216bc9bbe1a19ca3ce25.png",
     "static/media/logo.svg": "/proyecto-minas-energia/static/media/logo.b8665b077ae11a2672e80d0060e507e8.svg",
+    "static/media/icono_procesos.svg": "/proyecto-minas-energia/static/media/icono_procesos.9ddabdace20d8593e564369120696336.svg",
+    "static/media/icono_noticias.svg": "/proyecto-minas-energia/static/media/icono_noticias.a61af338ec3708de64827e7790910fe4.svg",
+    "static/media/icono_twitter.svg": "/proyecto-minas-energia/static/media/icono_twitter.efa9c47ee1c7eaeec811b5b305f2d952.svg",
+    "static/media/icono_canales_servicios.svg": "/proyecto-minas-energia/static/media/icono_canales_servicios.617e5fda0fbae9c74310c2a521e0139e.svg",
+    "static/media/icono_historicos.svg": "/proyecto-minas-energia/static/media/icono_historicos.b4c5213ad75d7b152c19356de51d149d.svg",
     "index.html": "/proyecto-minas-energia/index.html",
+    "static/media/icono_transparencia.svg": "/proyecto-minas-energia/static/media/icono_transparencia.529f05687262e66300076ad1f1c9f583.svg",
+    "static/media/icono_biblioteca.svg": "/proyecto-minas-energia/static/media/icono_biblioteca.100343950b7af41c72fc2e5c5dc6874b.svg",
+    "static/media/icono_tramites.svg": "/proyecto-minas-energia/static/media/icono_tramites.1634401d05e5d6611f99668fe8858da2.svg",
+    "static/media/icono_facebook.svg": "/proyecto-minas-energia/static/media/icono_facebook.d3c3e2f559a30bd29cace4fa2393ab20.svg",
+    "static/media/icono_youtube.svg": "/proyecto-minas-energia/static/media/icono_youtube.754c731e55c4097bce3d0e2f6cbb9359.svg",
     "static/media/burger_menu.svg": "/proyecto-minas-energia/static/media/burger_menu.465e6cae7d8872d6d3225d2ff0cf0929.svg",
     "static/media/lupa.svg": "/proyecto-minas-energia/static/media/lupa.b50a2d622adadd9ef58f976ad06cbc8f.svg",
+    "static/media/icono_flip.svg": "/proyecto-minas-energia/static/media/icono_flip.081519bc80295f7bbbed039e778a164d.svg",
     "static/media/ubicacion.svg": "/proyecto-minas-energia/static/media/ubicacion.c95d711ae48b004400ae2f3e7d06c876.svg",
-    "main.98a80d67.css.map": "/proyecto-minas-energia/static/css/main.98a80d67.css.map",
-    "main.2b4e8df3.js.map": "/proyecto-minas-energia/static/js/main.2b4e8df3.js.map"
+    "static/media/boton_derecho.svg": "/proyecto-minas-energia/static/media/boton_derecho.ad4c4e0227f4711b97ed946ca9466020.svg",
+    "static/media/boton_izquierdo.svg": "/proyecto-minas-energia/static/media/boton_izquierdo.773ec5b39eadebcac42a67227eadb3fa.svg",
+    "static/media/icono_planificacion.svg": "/proyecto-minas-energia/static/media/icono_planificacion.d2e301c398c093258f8f3bc81e05dbe5.svg",
+    "main.7c6474bf.css.map": "/proyecto-minas-energia/static/css/main.7c6474bf.css.map",
+    "main.1463eef9.js.map": "/proyecto-minas-energia/static/js/main.1463eef9.js.map"
   },
   "entrypoints": [
-    "static/css/main.98a80d67.css",
-    "static/js/main.2b4e8df3.js"
+    "static/css/main.7c6474bf.css",
+    "static/js/main.1463eef9.js"
   ]
 }
