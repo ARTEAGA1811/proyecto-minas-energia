@@ -11,19 +11,20 @@ const Contacto = () => {
     return (
         <>
             <Header />
-            <div className='mi_contenedor'>
+            <div className='mi_contenedor' tabIndex={0}>
                 <div className='presentacion_container'>
                     <h1 className='contactoh1'>Contáctanos</h1>
                     <p className='contacto_msg'>Queremos escucharte, envíanos un mensaje con tus preguntas o sugerencias</p>
                 </div>
 
-                <form action="" className='formulario_container'>
+                <form action="" className='formulario_container' aria-label='Formulario de contacto' tabIndex={0}>
                     <div>
                         <label htmlFor="nombre" className="form-label">
                             Nombre<span className='text-danger'>*</span>
                         </label>
                         <input type="text" required
                             className="form-control" id="nombre" placeholder="Ingresa tu nombre"
+                            aria-required="true"
                         />
                     </div>
 
@@ -33,6 +34,7 @@ const Contacto = () => {
                         </label>
                         <input type="text" required
                             className="form-control" id="apellido" placeholder="Ingresa tu apellido"
+                            aria-required="true"
                         />
                     </div>
 
@@ -42,6 +44,7 @@ const Contacto = () => {
                         </label>
                         <input type="email" required
                             className="form-control" id="email" placeholder="Ingresa tu correo electrónico"
+                            aria-required="true"
                         />
                     </div>
 

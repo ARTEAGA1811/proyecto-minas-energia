@@ -47,7 +47,7 @@
 .btn_enviar{
     width: min-content;
     justify-self: center;
-    background-color: #5F86B1;
+    background-color: #004F88;
     color: white;
     padding: 0.5rem 8rem;
     border: none;
@@ -60,7 +60,7 @@
 }
 
 .btn_enviar:hover{
-    background-color: #004F88;
+    background-color: #023152;
 }
 
 @media screen and (max-width: 576px){
