@@ -8,6 +8,9 @@ import { ModalBuscar } from './ModalBuscar'
 const Header = () => {
 
     const URLactual = window.location.pathname;
+    console.log(URLactual);
+    const subcarpeta = URLactual.split('/')[1];
+
 
     //Agrega la clase active_section al link que corresponda
     const checkURl = (currUrl: string) => {
@@ -30,13 +33,13 @@ const Header = () => {
                 <nav>
                     <ul className='nav'>
                         <li className='nav-item'>
-                            <a href="/" className={'nav-link mi_link ' + checkURl('/')}>Inicio</a>
+                            <a href="/proyecto-minas-energia" className={'nav-link mi_link ' + checkURl('/proyecto-minas-energia')}>Inicio</a>
                         </li>
                         <li className='nav-item'>
-                            <a href="/temas-importantes" className={'nav-link mi_link ' + checkURl('/temas-importantes')}>Temas Importantes</a>
+                            <a href="/proyecto-minas-energia/temas-importantes" className={'nav-link mi_link ' + checkURl('/proyecto-minas-energia/temas-importantes')}>Temas Importantes</a>
                         </li>
                         <li className='nav-item'>
-                            <a href="/contacto" className={'nav-link mi_link ' + checkURl('/contacto')}>Contacto</a>
+                            <a href="/proyecto-minas-energia/contacto" className={'nav-link mi_link ' + checkURl('/proyecto-minas-energia/contacto')}>Contacto</a>
                         </li>
                     </ul>
                 </nav>
