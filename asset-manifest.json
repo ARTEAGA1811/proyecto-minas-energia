@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/proyecto-minas-energia/static/css/main.7c6474bf.css",
-    "main.js": "/proyecto-minas-energia/static/js/main.fe3e3519.js",
+    "main.css": "/proyecto-minas-energia/static/css/main.4a3cc70c.css",
+    "main.js": "/proyecto-minas-energia/static/js/main.32da21b8.js",
     "static/media/01.png": "/proyecto-minas-energia/static/media/01.1890d60a97b6206764b2.png",
     "static/media/03.png": "/proyecto-minas-energia/static/media/03.813b695b9a350fe96e4d.png",
     "static/media/02.png": "/proyecto-minas-energia/static/media/02.216bc9bbe1a19ca3ce25.png",
@@ -24,11 +24,11 @@
     "static/media/boton_derecho.svg": "/proyecto-minas-energia/static/media/boton_derecho.ad4c4e0227f4711b97ed946ca9466020.svg",
     "static/media/boton_izquierdo.svg": "/proyecto-minas-energia/static/media/boton_izquierdo.773ec5b39eadebcac42a67227eadb3fa.svg",
     "static/media/icono_planificacion.svg": "/proyecto-minas-energia/static/media/icono_planificacion.d2e301c398c093258f8f3bc81e05dbe5.svg",
-    "main.7c6474bf.css.map": "/proyecto-minas-energia/static/css/main.7c6474bf.css.map",
-    "main.fe3e3519.js.map": "/proyecto-minas-energia/static/js/main.fe3e3519.js.map"
+    "main.4a3cc70c.css.map": "/proyecto-minas-energia/static/css/main.4a3cc70c.css.map",
+    "main.32da21b8.js.map": "/proyecto-minas-energia/static/js/main.32da21b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c6474bf.css",
-    "static/js/main.fe3e3519.js"
+    "static/css/main.4a3cc70c.css",
+    "static/js/main.32da21b8.js"
   ]
 }
