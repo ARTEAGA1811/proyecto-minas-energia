@@ -56,11 +56,11 @@
 
 .caja{
     border: 1px solid #ccc;
+    color: white;
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
-    background-color: #5f86b1;
-    color: #121212;
+    background-color: #4d6e91;
     width: 200px;
     height: 150px;
     display: flex;

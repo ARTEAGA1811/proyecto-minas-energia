@@ -9,7 +9,7 @@ import '../styles/Carrucel.css'
 
 const Carrucel = () => {
     return (
-        <div id="carrucel" className="carousel slide" data-bs-ride="true" tabIndex={0} aria-label="Carrucel de imágenes Energía y Minas">
+        <div id="carrucel" className="carousel slide" data-bs-ride="true" >
             <div className="carousel-indicators">
                 <button type="button" data-bs-target="#carrucel" data-bs-slide-to="0" className="active" aria-current="true" aria-label=" Imagen Acuerdo ministerial número 19"></button>
                 <button type="button" data-bs-target="#carrucel" data-bs-slide-to="1" aria-label="Imagen Acuerdo ministerial número 1"></button>
@@ -26,12 +26,12 @@ const Carrucel = () => {
                     <img className="imgC" src={img3} alt="Acuerdo ministerial número 11"/>
                 </Slide>
             </div>
-            <Controles aria-label="Carrucel de imágenes Energía y Minas">
+            <Controles>
                 <Boton className="carousel-control-prev opacity-100" data-bs-target="#carrucel" data-bs-slide="prev" aria-label="Botón anterior Slide">
-                    <FlechaIzquierda id="boton"/>
+                    <FlechaIzquierda id="botonIzquierdo" role="img" aria-label="Boton anterior"/>
                 </Boton>
                 <Boton className="carousel-control-next opacity-100" data-bs-target="#carrucel" data-bs-slide="next" aria-label="Botón siguiente Slide">
-                    <FlechaDerecha id="boton"  />
+                    <FlechaDerecha id="boton" role="img" aria-label="Boton siguiente"/>
                 </Boton>
             </Controles>
         </div>

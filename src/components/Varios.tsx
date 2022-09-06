@@ -11,7 +11,7 @@ const Varios = () => {
     return (
         <div>
             <Contenedor>
-                <RedesSociales className="rounded" aria-label="Redes sociales del Ministerio de Enegía y minas">
+                <RedesSociales className="rounded">
                     <h5 className="mb-1">Síguenos</h5>
                     <a href="https://www.facebook.com/RecNaturalesEC/" target="_blank">
                         <IconoRedSocial>
@@ -34,13 +34,13 @@ const Varios = () => {
                         </IconoRedSocial>
                     </a>
                 </RedesSociales>
-                <GobiernoInforma className="rounded " aria-label="Tu gobierno informa">
+                <GobiernoInforma className="rounded " >
                     <h5 className="mb-3">Tu Gobierno Informa</h5>
                     <div className="ratio ratio-16x9">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/swR867BaD0k" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
                     </div>
                 </GobiernoInforma>
-                <Autoridades className="rounded" aria-label="Autoridades del Ministerio de Enegía y minas">
+                <Autoridades className="rounded">
                     <h5 className="mb-0">Autoridades</h5>
                     <BotonAutoridades className="rounded">
                         <p>Ministerio de Energía y Minas</p>
