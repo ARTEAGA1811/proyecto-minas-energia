@@ -22,10 +22,10 @@ const Header = () => {
         <header className='header'>
             <div className='left_side'>
                 <img src={logo} alt="Logo del Ministerio de Energía y Minas" className='logo' />
-                <h4 className='fw-light m-0' tabIndex={0}>Ministerio de Energía y Minas</h4>
+                <h4 className='fw-light m-0'>Ministerio de Energía y Minas</h4>
             </div>
             <div className='right_side'>
-                <h4 className='fw-light mb-0' tabIndex={0}>Ministerio de Energía y Minas</h4>
+                <h4 className='fw-light mb-0'>Ministerio de Energía y Minas</h4>
                 <div className='vertical_separator'></div>
                 <nav>
                     <ul className='nav'>

@@ -34,7 +34,7 @@ const Contacto = () => {
     return (
         <>
             <Header />
-            <div className='mi_contenedor' tabIndex={0}>
+            <div className='mi_contenedor' tabIndex={0} role="main">
                 <div className='presentacion_container'>
                     <h1 className='contactoh1' id='contacc'>Contáctanos</h1>
                     <p className='contacto_msg'>Queremos escucharte, envíanos un mensaje con tus preguntas o sugerencias</p>
@@ -43,7 +43,7 @@ const Contacto = () => {
                 {mensajeAbierto && <h5 className='total_celdas text-center text-success fw-bold'tabIndex={0} ref={mensajeEnviado}>Muchas gracias, tu mensaje ha sido enviado correctamente</h5>}
 
                 <form action="" className='formulario_container'
-                    aria-label='Formulario de contacto' tabIndex={0}
+                    aria-label='Formulario de contacto'
                     onSubmit={submit}
                 >
                     <div>
@@ -53,6 +53,7 @@ const Contacto = () => {
                         <input type="text" required
                             className="form-control" id="nombre" placeholder="Ingresa tu nombre"
                             aria-required="true"
+                            autoComplete="on"
                         />
                     </div>
 
@@ -63,6 +64,7 @@ const Contacto = () => {
                         <input type="text" required
                             className="form-control" id="apellido" placeholder="Ingresa tu apellido"
                             aria-required="true"
+                            autoComplete="on"
                         />
                     </div>
 
@@ -73,6 +75,7 @@ const Contacto = () => {
                         <input type="email" required
                             className="form-control" id="email" placeholder="Ingresa tu correo electrónico"
                             aria-required="true" aria-invalid="true"
+                            autoComplete="on"
                         />
                     </div>
 
@@ -80,7 +83,7 @@ const Contacto = () => {
                         <label htmlFor="provincia" className="form-label">
                             Provincia<span className='text-danger'>*</span>
                         </label>
-                        <select className="form-select" aria-label="Elegir provincia" id='provincia'
+                        <select className="form-select" aria-label="Elegir provincia" id='provincia' autoComplete="on"
                             value={provincia} onChange={(e) => setProvincia(e.target.value)}
                         >
                             {provincias.map((provincia, index) => {
@@ -98,6 +101,7 @@ const Contacto = () => {
                         <input type="tel"
                             className="form-control" id="telefono" placeholder="Ingresa tu teléfono"
                             aria-invalid="true"
+                            autoComplete="on"
                         />
                     </div>
 
@@ -105,7 +109,7 @@ const Contacto = () => {
                         <label htmlFor="ciudad" className="form-label">
                             Ciudad<span className='text-danger'>*</span>
                         </label>
-                        <select className="form-select" aria-label="Ciudad por provincia" id='ciudad'>
+                        <select className="form-select" aria-label="Ciudad por provincia" id='ciudad' autoComplete="on">
                             {ciudadesPorProvincia[provincia].map((ciudad: string, index: number) => {
                                 return (
                                     <option key={index} value={ciudad}>{ciudad}</option>
@@ -123,6 +127,7 @@ const Contacto = () => {
                             aria-required="true" aria-invalid="true"
                             required
                             ref={mensajeTxtArea}
+                            autoComplete="off"
                         ></textarea>
                     </div>
 
