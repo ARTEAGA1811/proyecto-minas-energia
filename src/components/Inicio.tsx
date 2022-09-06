@@ -22,7 +22,9 @@ const Inicio = () => {
                     <Servicios />
                 </div>
             </ContenedorPrincipal>
-            <Footer />
+            <div id="footer">
+                <Footer />
+            </div>
         </div>
     )
 }

@@ -96,7 +96,9 @@ const Contacto = () => {
                 </form>
 
             </div>
-            <Footer />
+            <div id="footer">
+                <Footer />
+            </div>
         </>
     )
 }
