@@ -83,7 +83,7 @@ const Contenedor = styled.div`
 
 `
 const BotonServicios = styled.button`
-    background-color: #5F86B1;
+    background-color: #4d6e91;
     pointer-events: all;
     width: 49%;
     height: 9rem;
