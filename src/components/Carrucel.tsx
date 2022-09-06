@@ -16,15 +16,15 @@ const Carrucel = () => {
                 <button type="button" data-bs-target="#carrucel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div className="carousel-inner">
-                <div className="carousel-item active">
-                    <img src={img1} className="d-block w-100" alt="..." />
-                </div>
-                <div className="carousel-item">
-                    <img src={img2} className="d-block w-100" alt="..." />
-                </div>
-                <div className="carousel-item">
-                    <img src={img3} className="d-block w-100" alt="..." />
-                </div>
+                <Slide className="carousel-item active">
+                    <img className="imgC" src={img2} alt="..." />
+                </Slide>
+                <Slide className="carousel-item">
+                    <img className="imgC" src={img1}  alt="..." />
+                </Slide>
+                <Slide className="carousel-item">
+                    <img className="imgC" src={img3}  alt="..." />
+                </Slide>
             </div>
             <Controles>
                 <Boton className="carousel-control-prev opacity-100" data-bs-target="#carrucel" data-bs-slide="prev">
@@ -49,6 +49,13 @@ const Controles = styled.div`
 
 const Boton = styled.button`
     pointer-events: all;
+`;
+
+const Slide = styled.div`
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `;
 
 export { Carrucel };

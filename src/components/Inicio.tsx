@@ -17,7 +17,6 @@ const Inicio = () => {
                 <div className='col-8'>
                     <Carrucel />
                     <Varios />
-
                 </div>
                 <div className='col-4'>
                     <Servicios />
