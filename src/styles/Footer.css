@@ -6,8 +6,10 @@
     justify-content: space-between;
     align-items: center;
 }
+
+/* DA problemas en diferentes resoluciones */
 #footer{
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 0;
 }
