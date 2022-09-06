@@ -14,16 +14,16 @@ const Varios = () => {
                 <RedesSociales className="rounded">
                     <h5 className="mb-1">Síguenos</h5>
                     <IconoRedSocial>
-                        <img src={ic_facebook} alt="" />
+                        <img src={ic_facebook} alt="Botón Facebook del Ministerio de Enegía y minas" />
                     </IconoRedSocial>
                     <IconoRedSocial>
-                        <img src={ic_youtube} alt="" />
+                        <img src={ic_youtube} alt="Botón Youtube del Ministerio de Enegía y minas" />
                     </IconoRedSocial>
                     <IconoRedSocial>
-                        <img src={ic_flip} alt="" />
+                        <img src={ic_flip} alt="Botón Flip del Ministerio de Enegía y minas" />
                     </IconoRedSocial>
                     <IconoRedSocial>
-                        <img src={ic_twitter} alt="" />
+                        <img src={ic_twitter} alt="Botón Twitter del Ministerio de Enegía y minas" />
                     </IconoRedSocial>
                 </RedesSociales>
                 <GobiernoInforma className="rounded ">
@@ -64,7 +64,6 @@ const Contenedor = styled.div`
 `;
 
 const RedesSociales = styled.div`
-    
     height: 100%;
     padding: 1rem;
     gap: 0.6rem;
