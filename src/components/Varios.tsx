@@ -1,5 +1,5 @@
 import React from "react";
-import styled, { ThemeProps } from 'styled-components';
+import styled from 'styled-components';
 import ic_facebook from '../assets/icono_facebook.svg'
 import ic_youtube from '../assets/icono_youtube.svg'
 import ic_twitter from '../assets/icono_twitter.svg'
@@ -13,22 +13,22 @@ const Varios = () => {
             <Contenedor>
                 <RedesSociales className="rounded">
                     <h5 className="mb-1">Síguenos</h5>
-                    <a href="https://www.facebook.com/RecNaturalesEC/" target="_blank">
+                    <a href="https://www.facebook.com/RecNaturalesEC/" target="_blank" rel="noreferrer">
                         <IconoRedSocial>
                             <img src={ic_facebook} alt="Botón Facebook del Ministerio de Enegía y minas" />
                         </IconoRedSocial>
                     </a>
-                    <a href="https://www.youtube.com/user/recursosnorenovables" target="_blank">
+                    <a href="https://www.youtube.com/user/recursosnorenovables" target="_blank" rel="noreferrer">
                         <IconoRedSocial>
                             <img src={ic_youtube} alt="Botón Youtube del Ministerio de Enegía y minas" />
                         </IconoRedSocial>
                     </a>
-                    <a href="https://www.flickr.com/photos/recursosyenergiaec/" target="_blank">
+                    <a href="https://www.flickr.com/photos/recursosyenergiaec/" target="_blank" rel="noreferrer">
                         <IconoRedSocial>
                             <img src={ic_flip} alt="Botón Flickr del Ministerio de Enegía y minas" />
                         </IconoRedSocial>
                     </a>
-                    <a href="https://twitter.com/RecNaturalesEC" target="_blank">
+                    <a href="https://twitter.com/RecNaturalesEC" target="_blank" rel="noreferrer">
                         <IconoRedSocial>
                             <img src={ic_twitter} alt="Botón Twitter del Ministerio de Enegía y minas" />
                         </IconoRedSocial>
