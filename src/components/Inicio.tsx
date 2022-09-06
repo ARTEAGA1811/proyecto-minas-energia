@@ -13,18 +13,18 @@ const Inicio = () => {
     return (
         <div>
             <Header />
-            <ContenedorPrincipal className='row mt-4 ms-4 me-4'>
-                <div className='col-8'>
-                    <Carrucel />
+            <ContenedorPrincipal className='row m-4'>
+                <div className='col-lg-8 col-sm-12' >
+                    <Carrucel aria-label="Carrucel de imágenes Energía y Minas"/>
                     <Varios />
                 </div>
-                <div className='col-4'>
+                <div className='col-lg-4 col-sm-12'>
                     <Servicios />
                 </div>
             </ContenedorPrincipal>
-            <div id="footer">
+            {/* <div id="footer"> */}
                 <Footer />
-            </div>
+            {/* </div> */}
         </div>
     )
 }
