@@ -95,8 +95,6 @@ const GobiernoInforma = styled.div`
   gap: 0.8rem;
   padding: 1rem;
   background-color: aliceblue;
-
-
 `;
 
 const Autoridades = styled.div`
@@ -108,7 +106,6 @@ const Autoridades = styled.div`
     row-gap: 1rem;
     background-color: aliceblue;
 
-
 `;
 
 const BotonAutoridades = styled.button`
@@ -118,6 +115,7 @@ const BotonAutoridades = styled.button`
     background-color: #CCD6E8;
     height: calc((100% - 1rem) / 4);
     text-align: left;
+    color: black;
     padding-left: 1rem;
     :hover{
         box-shadow: 0 0px 10px #CCD6E8;
