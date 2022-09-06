@@ -3,6 +3,7 @@ import logo from '../assets/logo.svg'
 import lupa from '../assets/lupa.svg'
 import burger_menu from '../assets/burger_menu.svg'
 import '../styles/Header.css'
+import { ModalBuscar } from './ModalBuscar'
 
 const Header = () => {
 
@@ -20,13 +21,14 @@ const Header = () => {
     return (
         <header className='header'>
             <div className='left_side'>
-                <img src={logo} alt="logo" className='logo' />
+                <img src={logo} alt="Logo del Ministerio de Energía y Minas" className='logo' />
+                <h4 className='fw-light m-0'>Ministerio de Energía y Minas</h4>
             </div>
             <div className='right_side'>
                 <h4 className='fw-light mb-0'>Ministerio de Energía y Minas</h4>
                 <div className='vertical_separator'></div>
                 <nav>
-                    <ul className='nav nav-pills'>
+                    <ul className='nav'>
                         <li className='nav-item'>
                             <a href="/" className={'nav-link mi_link ' + checkURl('/')}>Inicio</a>
                         </li>
@@ -38,18 +40,22 @@ const Header = () => {
                         </li>
                     </ul>
                 </nav>
+                <div className='d-flex'>
+                    <button className='search_container btn' data-bs-toggle="modal" data-bs-target="#modalBuscar" type='button'>
+                        <img src={lupa} alt="ícono de una lupa" />
+                        <p className='mb-0 mi_texto'>Buscar</p>
+                    </button>
+                    
 
-                <div className='search_container'>
-                    <img src={lupa} alt="lupa" />
-                    <p className='mb-0 mi_texto'>Buscar</p>
-                </div>
-
-                <div className='menu_container'>
-                    <img src={burger_menu} alt="burguer_menu" />
-                    <p className='mb-0 mi_texto'>Menú</p>
+                    <button className='menu_container btn'>
+                        <img src={burger_menu} alt="Ícono de un menú hamburguesa" />
+                        <p className='mb-0 mi_texto'>Menú</p>
+                    </button>
                 </div>
 
             </div>
+
+            <ModalBuscar />
         </header>
     )
 }

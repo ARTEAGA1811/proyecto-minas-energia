@@ -1,0 +1,29 @@
+#carrucel {
+    display: flex;
+    height: 22.7rem;
+}
+
+.carousel-control-prev {
+    width: 7%;
+}
+
+.carousel-control-next {
+    width: 7%;
+}
+
+.carousel-indicators {
+    background-color: rgba(59, 131, 194, 0.552);
+    width: 100%;
+    margin: 0%;
+}
+
+#boton {
+    filter: drop-shadow(2px 2px 3px rgb(119, 126, 129));
+    border-radius: 50%;
+}
+
+#boton:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 0px 10px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+}

@@ -1,0 +1,12 @@
+#titulo{
+    color: #727272;
+}
+
+#horizontal_separator{
+    height: 1px;
+    width: 100%;
+    background-color: #C7C6C6;
+    margin-bottom: .9rem;
+    margin-top: 1rem;
+
+}

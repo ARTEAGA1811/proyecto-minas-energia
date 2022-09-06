@@ -11,8 +11,8 @@ function App() {
         <div id='principal_styles'>
             <Routes>
                 <Route path="/" element={<Inicio />} />
-                <Route path="temas-importantes" element={<TemasImportantes />} />
-                <Route path="contacto" element={<Contacto />} />
+                <Route path="/temas-importantes" element={<TemasImportantes />} />
+                <Route path="/contacto" element={<Contacto />} />
             </Routes>
         </div>
     );
