@@ -9,24 +9,24 @@ import '../styles/Carrucel.css'
 
 const Carrucel = () => {
     return (
-        <div id="carrucel" className="carousel slide" data-bs-ride="true" >
+        <div id="carrucel" className="carousel slide" data-bs-ride="true" tabIndex={0} aria-label="Carrucel de imágenes Energía y Minas">
             <div className="carousel-indicators">
-                <button type="button" data-bs-target="#carrucel" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carrucel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carrucel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carrucel" data-bs-slide-to="0" className="active" aria-current="true" aria-label=" Imagen Acuerdo ministerial número 19"></button>
+                <button type="button" data-bs-target="#carrucel" data-bs-slide-to="1" aria-label="Imagen Acuerdo ministerial número 1"></button>
+                <button type="button" data-bs-target="#carrucel" data-bs-slide-to="2" aria-label="Imagen Acuerdo ministerial número 11"></button>
             </div>
             <div className="carousel-inner">
                 <Slide className="carousel-item active">
-                    <img className="imgC" src={img2} alt="Acuerdo ministerial número 19" />
+                    <img className="imgC" src={img2} alt="Acuerdo ministerial número 19"/>
                 </Slide>
                 <Slide className="carousel-item">
-                    <img className="imgC" src={img1} alt="Acuerdo ministerial número 1" />
+                    <img className="imgC" src={img1} alt="Acuerdo ministerial número 1"/>
                 </Slide>
                 <Slide className="carousel-item">
-                    <img className="imgC" src={img3} alt="Acuerdo ministerial número 11" />
+                    <img className="imgC" src={img3} alt="Acuerdo ministerial número 11"/>
                 </Slide>
             </div>
-            <Controles aria-label="">
+            <Controles aria-label="Carrucel de imágenes Energía y Minas">
                 <Boton className="carousel-control-prev opacity-100" data-bs-target="#carrucel" data-bs-slide="prev" aria-label="Botón anterior Slide">
                     <FlechaIzquierda id="boton"/>
                 </Boton>
