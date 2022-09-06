@@ -11,28 +11,36 @@ const Varios = () => {
     return (
         <div>
             <Contenedor>
-                <RedesSociales className="rounded">
+                <RedesSociales className="rounded" aria-label="Redes sociales del Ministerio de Enegía y minas">
                     <h5 className="mb-1">Síguenos</h5>
-                    <IconoRedSocial>
-                        <img src={ic_facebook} alt="Botón Facebook del Ministerio de Enegía y minas" />
-                    </IconoRedSocial>
-                    <IconoRedSocial>
-                        <img src={ic_youtube} alt="Botón Youtube del Ministerio de Enegía y minas" />
-                    </IconoRedSocial>
-                    <IconoRedSocial>
-                        <img src={ic_flip} alt="Botón Flip del Ministerio de Enegía y minas" />
-                    </IconoRedSocial>
-                    <IconoRedSocial>
-                        <img src={ic_twitter} alt="Botón Twitter del Ministerio de Enegía y minas" />
-                    </IconoRedSocial>
+                    <a href="https://www.facebook.com/RecNaturalesEC/" target="_blank">
+                        <IconoRedSocial>
+                            <img src={ic_facebook} alt="Botón Facebook del Ministerio de Enegía y minas" />
+                        </IconoRedSocial>
+                    </a>
+                    <a href="https://www.youtube.com/user/recursosnorenovables" target="_blank">
+                        <IconoRedSocial>
+                            <img src={ic_youtube} alt="Botón Youtube del Ministerio de Enegía y minas" />
+                        </IconoRedSocial>
+                    </a>
+                    <a href="https://www.flickr.com/photos/recursosyenergiaec/" target="_blank">
+                        <IconoRedSocial>
+                            <img src={ic_flip} alt="Botón Flickr del Ministerio de Enegía y minas" />
+                        </IconoRedSocial>
+                    </a>
+                    <a href="https://twitter.com/RecNaturalesEC" target="_blank">
+                        <IconoRedSocial>
+                            <img src={ic_twitter} alt="Botón Twitter del Ministerio de Enegía y minas" />
+                        </IconoRedSocial>
+                    </a>
                 </RedesSociales>
-                <GobiernoInforma className="rounded ">
+                <GobiernoInforma className="rounded " aria-label="Tu gobierno informa">
                     <h5 className="mb-3">Tu Gobierno Informa</h5>
                     <div className="ratio ratio-16x9">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/swR867BaD0k" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
                     </div>
                 </GobiernoInforma>
-                <Autoridades className="rounded">
+                <Autoridades className="rounded" aria-label="Autoridades del Ministerio de Enegía y minas">
                     <h5 className="mb-0">Autoridades</h5>
                     <BotonAutoridades className="rounded">
                         <p>Ministerio de Energía y Minas</p>
@@ -44,7 +52,7 @@ const Varios = () => {
                         <p>Viceministro de Hidrocarburos</p>
                     </BotonAutoridades>
                     <BotonAutoridades className="rounded">
-                        <p>Viceministro de Hidrocarburos</p>
+                        <p>Secretario de Hidrocarburos</p>
                     </BotonAutoridades>
                 </Autoridades>
             </Contenedor>

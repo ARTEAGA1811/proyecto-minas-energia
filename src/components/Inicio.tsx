@@ -15,7 +15,7 @@ const Inicio = () => {
             <Header />
             <ContenedorPrincipal className='row m-4'>
                 <div className='col-lg-8 col-sm-12' >
-                    <Carrucel aria-label="Carrucel de imágenes Energía y Minas"/>
+                    <Carrucel/>
                     <Varios />
                 </div>
                 <div className='col-lg-4 col-sm-12'>
