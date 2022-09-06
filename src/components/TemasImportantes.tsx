@@ -52,7 +52,9 @@ const TemasImportantes = () => {
         
       </div>
       <div className='w-100' style={{marginTop: 35}}>
+        <div id="footer">
         <Footer />
+        </div>
       </div>
       
     </>

@@ -64,7 +64,7 @@ const Contenedor = styled.div`
 `;
 
 const RedesSociales = styled.div`
-    width: 10%;
+    
     height: 100%;
     padding: 1rem;
     gap: 0.6rem;

@@ -9,29 +9,29 @@ import '../styles/Carrucel.css'
 
 const Carrucel = () => {
     return (
-        <div id="carrucel" className="carousel slide" data-bs-ride="true">
+        <div id="carrucel" className="carousel slide" data-bs-ride="true" >
             <div className="carousel-indicators">
                 <button type="button" data-bs-target="#carrucel" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carrucel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carrucel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div className="carousel-inner">
-                <div className="carousel-item active">
-                    <img src={img1} className="d-block w-100" alt="..." />
-                </div>
-                <div className="carousel-item">
-                    <img src={img2} className="d-block w-100" alt="..." />
-                </div>
-                <div className="carousel-item">
-                    <img src={img3} className="d-block w-100" alt="..." />
-                </div>
+                <Slide className="carousel-item active">
+                    <img className="imgC" src={img2} alt="Acuerdo ministerial número 19" />
+                </Slide>
+                <Slide className="carousel-item">
+                    <img className="imgC" src={img1} alt="Acuerdo ministerial número 1" />
+                </Slide>
+                <Slide className="carousel-item">
+                    <img className="imgC" src={img3} alt="Acuerdo ministerial número 11" />
+                </Slide>
             </div>
-            <Controles>
-                <Boton className="carousel-control-prev opacity-100" data-bs-target="#carrucel" data-bs-slide="prev">
-                    <FlechaIzquierda id="boton" />
+            <Controles aria-label="">
+                <Boton className="carousel-control-prev opacity-100" data-bs-target="#carrucel" data-bs-slide="prev" aria-label="Botón anterior Slide">
+                    <FlechaIzquierda id="boton"/>
                 </Boton>
-                <Boton className="carousel-control-next opacity-100" data-bs-target="#carrucel" data-bs-slide="next">
-                    <FlechaDerecha id="boton" />
+                <Boton className="carousel-control-next opacity-100" data-bs-target="#carrucel" data-bs-slide="next" aria-label="Botón siguiente Slide">
+                    <FlechaDerecha id="boton"  />
                 </Boton>
             </Controles>
         </div>
@@ -49,6 +49,13 @@ const Controles = styled.div`
 
 const Boton = styled.button`
     pointer-events: all;
+`;
+
+const Slide = styled.div`
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `;
 
 export { Carrucel };
