@@ -12,9 +12,10 @@ const TemasImportantes = () => {
       <div style={{ height: "fit-content"}} className="container d-flex flex-column align-items-center">
         
         <h1 className="titulo row my-4">Temas importantes</h1>
+        <label htmlFor="campo-busqueda">Campo de busqueda</label>
         <div className="row has-search my-4">
           <img className="form-control-feedback" src={lupa} alt="lupa" />
-          <input type="text" className="form-control" placeholder="Ingresa aquí lo que estás buscando" />
+          <input id="campo-busqueda" autoComplete='on' type="text" className="form-control" placeholder="Ingresa aquí lo que estás buscando" />
         </div>
         <div className="d-flex my-3">
           <div className='mx-3 align-self-center circulo align-items-center d-flex'>
