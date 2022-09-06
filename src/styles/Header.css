@@ -66,6 +66,7 @@
     align-items: center;
     margin-right: 1rem;
     margin-left: 1.5rem;
+    gap: 0.2rem
 }
 
 
@@ -73,6 +74,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 0.2rem
 }
 
 
