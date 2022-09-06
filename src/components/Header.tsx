@@ -22,10 +22,10 @@ const Header = () => {
         <header className='header'>
             <div className='left_side'>
                 <img src={logo} alt="Logo del Ministerio de Energía y Minas" className='logo' />
-                <h4 className='fw-light m-0' tabIndex={0}>Ministerio de Energía y Minas</h4>
+                <h4 className='fw-light m-0'>Ministerio de Energía y Minas</h4>
             </div>
             <div className='right_side'>
-                <h4 className='fw-light mb-0' tabIndex={0}>Ministerio de Energía y Minas</h4>
+                <h4 className='fw-light mb-0'>Ministerio de Energía y Minas</h4>
                 <div className='vertical_separator'></div>
                 <nav>
                     <ul className='nav'>
@@ -41,7 +41,7 @@ const Header = () => {
                     </ul>
                 </nav>
                 <div className='d-flex'>
-                    <button className='search_container btn' data-bs-toggle="modal" data-bs-target="#exampleModal" type='button'>
+                    <button className='search_container btn' data-bs-toggle="modal" data-bs-target="#modalBuscar" type='button'>
                         <img src={lupa} alt="ícono de una lupa" />
                         <p className='mb-0 mi_texto'>Buscar</p>
                     </button>
