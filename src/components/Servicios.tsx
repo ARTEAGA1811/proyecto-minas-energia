@@ -80,8 +80,8 @@ const Contenedor = styled.div`
     justify-content: space-between;
     flex-wrap: wrap;
     row-gap: .7rem;
+`;
 
-`
 const BotonServicios = styled.button`
     background-color: #4d6e91;
     pointer-events: all;
@@ -94,11 +94,11 @@ const BotonServicios = styled.button`
     align-items: center;
     :hover{
         color: rgba(255, 255, 255, 1) !important;
-        box-shadow: 0 0px 10px rgba(49, 138, 172, 1);
+        box-shadow: 0 0px 15px rgba(49, 138, 172, 1);
         transition: all 0.2s ease;
-    }
-    
-`
+    }  
+`;
+
 const IconoServicios = styled.div`
 `;
 

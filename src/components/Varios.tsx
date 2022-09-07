@@ -65,7 +65,7 @@ export { Varios }
 
 const Contenedor = styled.div`
     display:flex;
-    flex-direction: row;
+    flex-direction: row; 
     margin-top: 0.8rem;
     height: 18.7rem;
     column-gap: 1rem;    
@@ -79,7 +79,6 @@ const RedesSociales = styled.div`
     display: flex;
     flex-direction: column;
     background-color: aliceblue;
-
 `;
 
 const IconoRedSocial = styled.div`
@@ -94,7 +93,6 @@ const IconoRedSocial = styled.div`
         transition: all 0.2s ease;
         cursor: pointer;
     }
-
 `;
 
 const GobiernoInforma = styled.div`
@@ -113,13 +111,11 @@ const Autoridades = styled.div`
     height: 100%;
     row-gap: 1rem;
     background-color: aliceblue;
-
 `;
 
 const BotonAutoridades = styled.button`
     pointer-events: all;
     border: none;
-    width: 100%;
     background-color: #CCD6E8;
     height: calc((100% - 1rem) / 4);
     text-align: left;
