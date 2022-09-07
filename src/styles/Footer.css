@@ -7,6 +7,13 @@
     align-items: center;
 }
 
+/* DA problemas en diferentes resoluciones */
+#footer{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
 p{
     margin-bottom: 0;
     font-weight: 300;

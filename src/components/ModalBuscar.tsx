@@ -15,6 +15,7 @@ const ModalBuscar = () => {
                             className="form-control" id="palabraClave" 
                             placeholder="Ingresa la palabra clave" 
                             aria-labelledby="palabraClave"
+                            autoComplete="on"
                         />
                     </div>
                     <div className="modal-footer">

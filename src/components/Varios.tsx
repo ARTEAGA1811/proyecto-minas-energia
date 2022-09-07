@@ -1,5 +1,5 @@
 import React from "react";
-import styled, { ThemeProps } from 'styled-components';
+import styled from 'styled-components';
 import ic_facebook from '../assets/icono_facebook.svg'
 import ic_youtube from '../assets/icono_youtube.svg'
 import ic_twitter from '../assets/icono_twitter.svg'
@@ -13,20 +13,28 @@ const Varios = () => {
             <Contenedor>
                 <RedesSociales className="rounded">
                     <h5 className="mb-1">Síguenos</h5>
-                    <IconoRedSocial>
-                        <img src={ic_facebook} alt="" />
-                    </IconoRedSocial>
-                    <IconoRedSocial>
-                        <img src={ic_youtube} alt="" />
-                    </IconoRedSocial>
-                    <IconoRedSocial>
-                        <img src={ic_flip} alt="" />
-                    </IconoRedSocial>
-                    <IconoRedSocial>
-                        <img src={ic_twitter} alt="" />
-                    </IconoRedSocial>
+                    <a href="https://www.facebook.com/RecNaturalesEC/" target="_blank" rel="noreferrer">
+                        <IconoRedSocial>
+                            <img src={ic_facebook} alt="Botón Facebook del Ministerio de Enegía y minas" />
+                        </IconoRedSocial>
+                    </a>
+                    <a href="https://www.youtube.com/user/recursosnorenovables" target="_blank" rel="noreferrer">
+                        <IconoRedSocial>
+                            <img src={ic_youtube} alt="Botón Youtube del Ministerio de Enegía y minas" />
+                        </IconoRedSocial>
+                    </a>
+                    <a href="https://www.flickr.com/photos/recursosyenergiaec/" target="_blank" rel="noreferrer">
+                        <IconoRedSocial>
+                            <img src={ic_flip} alt="Botón Flickr del Ministerio de Enegía y minas" />
+                        </IconoRedSocial>
+                    </a>
+                    <a href="https://twitter.com/RecNaturalesEC" target="_blank" rel="noreferrer">
+                        <IconoRedSocial>
+                            <img src={ic_twitter} alt="Botón Twitter del Ministerio de Enegía y minas" />
+                        </IconoRedSocial>
+                    </a>
                 </RedesSociales>
-                <GobiernoInforma className="rounded ">
+                <GobiernoInforma className="rounded " >
                     <h5 className="mb-3">Tu Gobierno Informa</h5>
                     <div className="ratio ratio-16x9">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/swR867BaD0k" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
@@ -44,7 +52,7 @@ const Varios = () => {
                         <p>Viceministro de Hidrocarburos</p>
                     </BotonAutoridades>
                     <BotonAutoridades className="rounded">
-                        <p>Viceministro de Hidrocarburos</p>
+                        <p>Secretario de Hidrocarburos</p>
                     </BotonAutoridades>
                 </Autoridades>
             </Contenedor>
@@ -64,7 +72,6 @@ const Contenedor = styled.div`
 `;
 
 const RedesSociales = styled.div`
-    width: 10%;
     height: 100%;
     padding: 1rem;
     gap: 0.6rem;
@@ -96,8 +103,6 @@ const GobiernoInforma = styled.div`
   gap: 0.8rem;
   padding: 1rem;
   background-color: aliceblue;
-
-
 `;
 
 const Autoridades = styled.div`
@@ -109,7 +114,6 @@ const Autoridades = styled.div`
     row-gap: 1rem;
     background-color: aliceblue;
 
-
 `;
 
 const BotonAutoridades = styled.button`
@@ -119,6 +123,7 @@ const BotonAutoridades = styled.button`
     background-color: #CCD6E8;
     height: calc((100% - 1rem) / 4);
     text-align: left;
+    color: black;
     padding-left: 1rem;
     :hover{
         box-shadow: 0 0px 10px #CCD6E8;
