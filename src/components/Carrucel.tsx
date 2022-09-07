@@ -52,10 +52,9 @@ const Boton = styled.button`
 `;
 
 const Slide = styled.div`
-    
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    vertical-align: middle;
 `;
 
 export { Carrucel };
