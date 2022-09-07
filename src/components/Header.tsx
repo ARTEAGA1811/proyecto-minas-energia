@@ -14,7 +14,7 @@ const Header = () => {
         if (currUrl === URLactual) {
             return 'active_section'
         }
-        return ''
+        return "";
     }
 
 
